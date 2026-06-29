@@ -1,0 +1,8 @@
+[project]
+name = "saas-cs-agent"
+version = "1.0.0"
+requires-python = ">=3.10"
+dependencies = ["langchain>=0.3", "langgraph>=1.2", "langgraph-checkpoint-sqlite>=2.0"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
